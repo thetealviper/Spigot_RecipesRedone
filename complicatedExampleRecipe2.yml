@@ -1,0 +1,22 @@
+category: "Magic Tools"
+permission: "complicatedExample2"
+recipe:
+ 0:
+  id: "DIAMOND"
+  amount: 1
+  name: "&c&lMagical Crystal"
+  lore:
+   - "&r&7This crystal is rumored to forge magical tools..."
+ 3:
+  id: "STICK"
+ 6:
+  id: "STICK"
+reward:
+ 0:
+  id: "DIAMOND_SHOVEL"
+  amount: 1
+  name: "&c&lMagical Shovel"
+  lore:
+   - "&r&7Where did this come from?!"
+  enchantments:
+   - "digspeed:20"

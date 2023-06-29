@@ -1,0 +1,153 @@
+##########################################################
+#                  RecipesRedone Config                  #
+##########################################################
+
+Use_This_Plugin_For_Crafting_Table: true
+#If you utilize a different plugin that hooks into the API
+#to open the custom crafting menu, then you CAN set this to
+#false. If you don't know what I'm talking about, it's
+#proabably best that you leave this true.
+
+Crafting_Table_Require_Look_At_Workbench: false
+#If the above option is enabled, and this is enabled, it will
+#require players to be looking at a workbench when they type
+#the command to open the custom crafting menu.
+
+Crafting_Table_Command: "/recipesredone"
+#If enabled, this is the command the player will type to open
+#the custom crafting menu.
+#NOTE: This can be used to override other plugin's commands
+
+Crafting_Table_Name: "&c&lRecipe Redone"
+#If enabled, this is the title of the custom crafting menu.
+
+Crafting_Table_Filler:
+ id: "GRAY_STAINED_GLASS_PANE"
+ name: "&c&lRecipe Redone"
+ lore:
+  - "&r&7Custom recipes redone"
+#This is the information of the item in the middle of the
+#custom crafting menu that does nothing
+
+Crafting_Table_Craft1:
+ id: "STONE_BUTTON"
+ name: "&a&lCRAFT 1x"
+ lore:
+  - "&r&7Click me to craft 1x your items"
+#This is the information of the item in the middle of the
+#custom crafting menu that crafts the items
+
+Crafting_Table_Craft16:
+ id: "STONE_BUTTON"
+ name: "&a&lCRAFT 16x"
+ lore:
+  - "&r&7Click me to craft 16x your items"
+#This is the information of the item in the middle of the
+#custom crafting menu that crafts the items
+
+Crafting_Table_Craft32:
+ id: "STONE_BUTTON"
+ name: "&a&lCRAFT 32x"
+ lore:
+  - "&r&7Click me to craft 32x your items"
+#This is the information of the item in the middle of the
+#custom crafting menu that crafts the items
+
+Crafting_Table_Craft64:
+ id: "STONE_BUTTON"
+ name: "&a&lCRAFT 64x"
+ lore:
+  - "&r&7Click me to craft 64x your items"
+#This is the information of the item in the middle of the
+#custom crafting menu that crafts the items
+
+Use_This_Plugin_For_Tutorial_Menu: true
+#If you utilize a different plugin that hooks into the API
+#to open the tutorial menu, then you CAN set this to
+#false. If you don't know what I'm talking about, it's
+#proabably best that you leave this true.
+
+Tutorial_Table_Command: "/recipestutorial"
+#If enabled, this is the command the player will type to open
+#the crafting tutorial menu.
+#NOTE: This can be used to override other plugin's commands
+
+Tutorial_Table_Name: "&c&lRecipe Tutorial"
+#If enabled, this is the title of the crafting tutorial menu.
+
+Tutorial_Table_Filler:
+ id: "LIGHT_BLUE_STAINED_GLASS_PANE"
+ name: " "
+#This is the filler of the crafting tutorial menu
+
+Tutorial_Table_Main_Helper:
+ id: "BOOK"
+ name: "&6&lExplanation"
+ lore:
+  - "&r&7Listed above are recipe categories."
+  - "&r&7Click one to view the recipe inside."
+#This is the item that explains the main tutorial GUI
+
+Tutorial_Table_Category_Helper:
+ id: "BOOK"
+ name: "&6&lExplanation"
+ lore:
+  - "&r&7Listed above are recipes for this category."
+  - "&r&7Click one to view how to craft it."
+#This is the item that explains the category GUI
+
+Tutorial_Table_Next_Page:
+ id: "PAPER"
+ name: "&r&lNext Page"
+#This is obvious
+
+Tutorial_Table_Current_Page:
+ id: "CHEST"
+ name: "Page %#%"
+#This is obvious. LEAVE '%#%' IN IT SOMEWHERE.
+#Also color codes don't work for THIS SPECIFIC
+#VALUE because of programming reasons.
+#Don't worry about it. Sorry.
+ 
+Tutorial_Table_Previous_Page:
+ id: "PAPER"
+ name: "&r&lPrevious Page"
+#This is also obvious
+
+Tutorial_Table_Back:
+ id: "BARRIER"
+ name: "&r&lBack"
+#This is the button used to go back a menu
+
+Play_Sound_On_UI_Click: true
+#Self explanatory
+
+Recipe_Creator_Filler:
+ id: "LIGHT_BLUE_STAINED_GLASS_PANE"
+ name: " "
+#This is the filler of the recipe maker
+
+Recipe_Creator_Helper:
+ id: "BOOK"
+ name: "&6&lExplanation"
+ lore:
+  - "&r&7Welcome to the Recipe Creator."
+  - "&r&7Layout your recipe the way you want it to be crafted."
+  - "&r&7For the left section, stay as close to the top left as possible."
+  - "&r&7For the right section, items will appear exactly as you put them."
+  - "&r&7Once done, click the button above."
+#This is the book that explains what is happening
+  
+Recipe_Creator_Create:
+ id: "STONE_BUTTON"
+ name: "&rCreate Recipe"
+ lore:
+  - "&r&7Click me to move on to the next step and categorize your recipe."
+#This is the button that creates the recipe
+
+##########################################################
+#                        Version                         #
+##########################################################
+
+VERSION: 6
+#Do not touch this. No touchy.

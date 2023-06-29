@@ -1,0 +1,16 @@
+permission: "simpleExample"
+recipe:
+ 0:
+  id: "STICK"
+reward:
+ 0:
+  id: "STICK"
+  amount: 1
+  name: "&c&lPapa's Whipping Stick"
+  lore:
+   - "&r&7Don't f*ck with papa"
+   - "&r&7or you get the whip."
+  enchantments:
+   - "damage:5"
+   - "knockback:20"
+   - "fireaspect:1"

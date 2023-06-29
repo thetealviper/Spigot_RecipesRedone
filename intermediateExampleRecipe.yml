@@ -1,0 +1,31 @@
+permission: "intermediateExample"
+recipe:
+ 1:
+  id: "STICK"
+ 4:
+  id: "STICK"
+ 7:
+  id: "STICK"
+ 9:
+  id: "STICK"
+ 10:
+  id: "DIAMOND"
+ 11:
+  id: "STICK"
+ 13:
+  id: "DIAMOND"
+ 16:
+  id: "DIAMOND"
+reward:
+ 4:
+  id: "DIAMOND_SWORD"
+  amount: 2
+  name: "&c&lZeus's Punisher"
+  lore:
+   - "&r&7No saving whoever this smites..."
+  enchantments:
+   - "damage:5"
+   - "knockback:20"
+   - "fireaspect:1"
+  tags:
+   - "durability:0"

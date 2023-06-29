@@ -1,0 +1,32 @@
+category: "Magic Tools"
+permission: "complicatedExample1"
+recipe:
+ 0:
+  id: "REDSTONE"
+  amount: 2
+ 1:
+  id: "IRON_INGOT"
+ 2:
+  id: "REDSTONE"
+  amount: 2
+ 3:
+  id: "IRON_INGOT"
+ 4:
+  id: "IRON_INGOT"
+ 5:
+  id: "IRON_INGOT"
+ 6:
+  id: "REDSTONE"
+  amount: 2
+ 7:
+  id: "IRON_INGOT"
+ 8:
+  id: "REDSTONE"
+  amount: 2
+reward:
+ 0:
+  id: "DIAMOND"
+  amount: 1
+  name: "&c&lMagical Crystal"
+  lore:
+   - "&r&7This crystal is rumored to forge magical tools..."
