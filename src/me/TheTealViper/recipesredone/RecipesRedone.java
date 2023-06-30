@@ -139,18 +139,14 @@ public class RecipesRedone extends UtilityEquippedJavaPlugin implements Listener
 					Bukkit.getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
 						public void run() {
 							boolean foundARecipe = false;
-							Bukkit.broadcastMessage("cp 1");
 							for(int i = 0;i < recipes.size();i++){
 								ModernRecipe mr = recipes.get(i);
-								Bukkit.broadcastMessage("cp 2");
 								if(mr.checkRecipe(inv) && (mr.permission.equals("") || e.getWhoClicked().hasPermission(mr.permission))){
-									Bukkit.broadcastMessage("cp 3");
 									mr.loadRewards(inv);
 									foundARecipe = true;
 								}
 							}
 							if(!foundARecipe){
-								Bukkit.broadcastMessage("cp 4");
 								inv.remove(inv.getItem(6));inv.remove(inv.getItem(7));inv.remove(inv.getItem(8));
 								inv.remove(inv.getItem(15));inv.remove(inv.getItem(16));inv.remove(inv.getItem(17));
 								inv.remove(inv.getItem(24));inv.remove(inv.getItem(25));inv.remove(inv.getItem(26));
