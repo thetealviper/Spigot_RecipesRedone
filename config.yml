@@ -13,7 +13,7 @@ Crafting_Table_Require_Look_At_Workbench: false
 #require players to be looking at a workbench when they type
 #the command to open the custom crafting menu.
 
-Crafting_Table_Command: "/recipesredone"
+Crafting_Table_Command: "/rr"
 #If enabled, this is the command the player will type to open
 #the custom crafting menu.
 #NOTE: This can be used to override other plugin's commands
@@ -67,7 +67,7 @@ Use_This_Plugin_For_Tutorial_Menu: true
 #false. If you don't know what I'm talking about, it's
 #proabably best that you leave this true.
 
-Tutorial_Table_Command: "/recipestutorial"
+Tutorial_Table_Command: "/recipetutorial"
 #If enabled, this is the command the player will type to open
 #the crafting tutorial menu.
 #NOTE: This can be used to override other plugin's commands
@@ -146,8 +146,20 @@ Recipe_Creator_Create:
 #This is the button that creates the recipe
 
 ##########################################################
+#                      Permissions                       #
+##########################################################
+
+# /rr - N/A
+
+# /recipetutorial - N/A
+
+# /createrecipe - recipesredone.createrecipe
+
+# /reloadrecipes - recipesredone.reloadrecipes
+
+##########################################################
 #                        Version                         #
 ##########################################################
 
-VERSION: 6
+VERSION: 7
 #Do not touch this. No touchy.

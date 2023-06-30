@@ -1,8 +1,11 @@
 name: "RecipesRedone"
 author: TheTealViper
-version: "1.7.1"
-api-version: 1.13
+version: "1.20.1.a.1"
+api-version: "1.20"
 description: "Redo recipes"
 main: me.TheTealViper.recipesredone.RecipesRedone
 commands:
  createrecipe:
+  permission: "recipesredone.createrecipe"
+ loadrecipes:
+  permission: "recipesredone.loadrecipes"

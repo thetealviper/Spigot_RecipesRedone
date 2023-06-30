@@ -7,6 +7,8 @@ recipe:
   name: "&c&lMagical Crystal"
   lore:
    - "&r&7This crystal is rumored to forge magical tools..."
+  tags:
+   - "fakeenchant:true"
  3:
   id: "STICK"
  6:

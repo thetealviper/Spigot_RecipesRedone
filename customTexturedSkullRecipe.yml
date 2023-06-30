@@ -1,0 +1,24 @@
+category: "Custom Skinned Skulls"
+permission: "simpleExample"
+recipe:
+ 0:
+  id: "APPLE"
+reward:
+ 0:
+  id: "PLAYER_HEAD"
+  amount: 1
+  name: "&c&lTexture Head"
+  lore:
+   - "I use textureskull:TEXTURE"
+   - "(95fd67d56ffc53fb360a17879d9b5338d7332d8f129491a5e17e8d6e8aea6c3a)"
+  tags:
+   - "textureskull:95fd67d56ffc53fb360a17879d9b5338d7332d8f129491a5e17e8d6e8aea6c3a"
+ 1:
+  id: "PLAYER_HEAD"
+  amount: 1
+  name: "&c&lPlayer Head"
+  lore:
+   - "I use playerskull:NAME"
+   - "(Notch)"
+  tags:
+   - "playerskull:Notch"
