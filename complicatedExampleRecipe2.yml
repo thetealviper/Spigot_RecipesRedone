@@ -8,7 +8,7 @@ recipe:
   lore:
    - "&r&7This crystal is rumored to forge magical tools..."
   tags:
-   - "fakeenchant:true"
+   - "enchantglow:true"
  3:
   id: "STICK"
  6:
